@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"omiBlog/controllers"
+	"omi-Blog/controllers"
 	"github.com/astaxie/beego"
 )
 

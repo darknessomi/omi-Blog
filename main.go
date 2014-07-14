@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "omiBlog/routers"
+	_ "omi-Blog/routers"
 	"github.com/astaxie/beego"
 )
 
