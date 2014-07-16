@@ -1,8 +1,23 @@
-omi-Blog
-========
+beego-blog
+==========
 
-omi Blog
+ulricqin's blog use beego framework
 
-use bootstrap3 jquery html5 css3
+## install
 
-use GO beego
+```
+mkdir -p $GOPATH/src/github.com/ulricqin
+cd $GOPATH/src/github.com/ulricqin
+git clone https://github.com/UlricQin/beego-blog.git
+go get github.com/ulricqin/beego-blog/...
+cd beego-blog && modify conf/app.conf
+bee run
+```
+
+## admin 
+
+```
+url: /me
+username: UlricQin
+password: a
+```
