@@ -15,6 +15,16 @@ go get github.com/darknessomi/omi-blog/...
 cd omi-blog && modify conf/app.conf
 bee run
 ```
+## mysql
+
+```
+create database omi_blog;
+use omi_blog;
+source /Users/omi/go/src/omi-Blog/db.sql;
+```
+
+
+
 
 ## admin 
 
