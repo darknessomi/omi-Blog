@@ -18,6 +18,6 @@ bee run
 
 ```
 url: /me
-username: UlricQin
+username: omi
 password: a
 ```
