@@ -1,7 +1,9 @@
-beego-blog
+omi-blog
 ==========
 
-ulricqin's blog use beego framework
+omi's blog use beego framework
+
+thanks ulricqin
 
 ## install
 
