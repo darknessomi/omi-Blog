@@ -31,5 +31,5 @@ source /Users/omi/go/src/omi-Blog/db.sql;
 ```
 url: /me
 username: omi
-password: a
+password: md5
 ```
