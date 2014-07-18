@@ -20,7 +20,7 @@ bee run
 ```
 create database omi_blog;
 use omi_blog;
-source /Users/omi/go/src/omi-Blog/db.sql;
+source $GOPATH/src/github.com/darknessomi/omi-Blog/db.sql;
 ```
 
 
