@@ -5,13 +5,39 @@ omi's blog use beego framework
 
 thanks ulricqin
 
-## install
+## install 
+centos安装使用如下命令：
 
 ```
-mkdir -p $GOPATH/src/github.com/darknessomi
+sudo yum install go  
+sudo yum install git  
+sudo yum install mariadb 
+sudo mkdir /home/go
+export GOPATH=/home/go
+``` 
+
+
+Ubuntu安装使用如下命令：
+
+```
+sudo apt-get install python-software-properties  
+sudo add-apt-repository ppa:gophers/go  
+sudo apt-get update  
+sudo apt-get install golang-stable git-core mercurial  
+sudo apt-get install mariadb
+sudo mkdir /home/go
+export GOPATH=/home/go
+```
+
+执行完上面的命令之后环境变量会设置好，这样就可以直接使用了。
+
+## make
+
+```
+sudo mkdir -p $GOPATH/src/github.com/darknessomi
 cd $GOPATH/src/github.com/darknessomi
-git clone https://github.com/darknessomi/omi-blog.git
-go get github.com/darknessomi/omi-blog/...
+sudo git clone https://github.com/darknessomi/omi-blog.git
+sudo go get github.com/darknessomi/omi-blog/...
 cd omi-blog && modify conf/app.conf
 bee run
 ```
