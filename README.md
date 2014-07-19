@@ -26,6 +26,7 @@ export GOBIN=~/go/bin
 export GOPATH=~/go  
 export PATH=$PATH:$GOBIN:$GOPATH  
 
+修改后需重开ssh
 ## make
 
 ```
@@ -41,7 +42,7 @@ bee run
 ```
 create database omi_blog;
 use omi_blog;
-source $GOPATH/src/github.com/darknessomi/omi-Blog/db.sql;
+source $GOPATH/src/github.com/darknessomi/omi-blog/db.sql;
 ```
 
 
