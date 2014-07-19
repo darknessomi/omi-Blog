@@ -11,7 +11,8 @@ thanks ulricqin
 ```
 sudo yum install go  
 sudo yum install git  
-sudo yum install mariadb 
+sudo yum install mariadb-server mariadb  
+sudo systemctl start mariadb.service  
 mkdir ~/go
 export GOPATH=~/go
 go get github.com/beego/bee
