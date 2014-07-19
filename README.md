@@ -35,7 +35,7 @@ cd $GOPATH/src/github.com/darknessomi
 git clone https://github.com/darknessomi/omi-blog.git
 go get github.com/darknessomi/omi-blog/...
 cd omi-blog && modify conf/app.conf
-bee run
+setsid bee run
 ```
 ## mysql
 
