@@ -53,3 +53,20 @@ url: /me
 username: omi
 password: md5
 ```
+
+## File directory description
+
+```
+├── README.md
+├── conf
+│   └── app.conf					# configuration file
+├── controllers
+├── db.sql
+├── g
+├── main.go
+├── models
+├── omi-Blog
+├── routers
+├── static
+└── views							# Page file 
+```
