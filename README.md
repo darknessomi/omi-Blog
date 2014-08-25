@@ -17,7 +17,8 @@ mkdir ~/go
 export GOPATH=~/go
 go get github.com/beego/bee
 ``` 
-环境变量  
+environment variable
+  
 ``` 
 sudo vi /etc/profile
 ```  
@@ -26,7 +27,7 @@ export GOBIN=~/go/bin
 export GOPATH=~/go  
 export PATH=$PATH:$GOBIN:$GOPATH  
 
-修改后需重新登录
+
 ## make
 
 ```
