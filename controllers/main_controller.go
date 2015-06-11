@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/ulricqin/beego-blog/g"
-	"github.com/ulricqin/beego-blog/models/blog"
-	"github.com/ulricqin/beego-blog/models/catalog"
+	"github.com/darknessomi/omi-Blog/g"
+	"github.com/darknessomi/omi-Blog/models/blog"
+	"github.com/darknessomi/omi-Blog/models/catalog"
 )
 
 type MainController struct {

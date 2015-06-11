@@ -2,10 +2,10 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/ulricqin/beego-blog/g"
-	"github.com/ulricqin/beego-blog/models/catalog"
-	"github.com/ulricqin/goutils/filetool"
-	"github.com/ulricqin/goutils/strtool"
+	"github.com/darknessomi/omi-Blog/g"
+	"github.com/darknessomi/omi-Blog/models/catalog"
+	"github.com/darknessomi/goutils/filetool"
+	"github.com/darknessomi/goutils/strtool"
 	"strings"
 	"time"
 )

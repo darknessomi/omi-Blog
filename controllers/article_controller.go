@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"github.com/ulricqin/beego-blog/models"
-	"github.com/ulricqin/beego-blog/models/blog"
-	"github.com/ulricqin/beego-blog/models/catalog"
+	"github.com/darknessomi/omi-Blog/models"
+	"github.com/darknessomi/omi-Blog/models/blog"
+	"github.com/darknessomi/omi-Blog/models/catalog"
 )
 
 type ArticleController struct {
@@ -71,7 +71,7 @@ func (this *ArticleController) Edit() {
 		return
 	}
 
-	b := blog.OneById(id)
+	b := blog.OneById(int64(id))
 	if b == nil {
 		this.Ctx.WriteString("no such article")
 		return
@@ -91,7 +91,7 @@ func (this *ArticleController) DoEdit() {
 		return
 	}
 
-	b := blog.OneById(id)
+	b := blog.OneById(int64(id))
 	if b == nil {
 		this.Ctx.WriteString("no such article")
 		return
@@ -146,7 +146,7 @@ func (this *ArticleController) Del() {
 		return
 	}
 
-	b := blog.OneById(id)
+	b := blog.OneById(int64(id))
 	if b == nil {
 		this.Ctx.WriteString("no such article")
 		return
