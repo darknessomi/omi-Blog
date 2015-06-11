@@ -14,6 +14,7 @@ sudo yum install mariadb-server mariadb
 sudo systemctl start mariadb.service  
 mkdir ~/go
 export GOPATH=~/go
+go get github.com/beego/bee
 ``` 
 environment variable
   
