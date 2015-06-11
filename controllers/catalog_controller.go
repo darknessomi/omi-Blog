@@ -5,7 +5,7 @@ import (
 	"github.com/darknessomi/omi-Blog/g"
 	"github.com/darknessomi/omi-Blog/models"
 	"github.com/darknessomi/omi-Blog/models/catalog"
-	"github.com/darknessomi/goutils/filetool"
+	"github.com/ulricqin/goutils/filetool"
 	"time"
 )
 

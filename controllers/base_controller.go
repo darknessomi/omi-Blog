@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/darknessomi/omi-Blog/g"
-	"github.com/darknessomi/goutils/paginator"
+	"github.com/ulricqin/goutils/paginator"
 	"strconv"
 )
 

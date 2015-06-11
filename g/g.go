@@ -6,7 +6,7 @@ import (
 	"github.com/astaxie/beego/cache"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
-	log "github.com/darknessomi/goutils/logtool"
+	log "github.com/ulricqin/goutils/logtool"
 	"os"
 )
 

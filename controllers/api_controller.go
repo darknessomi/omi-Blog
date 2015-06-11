@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/darknessomi/omi-Blog/g"
 	"github.com/darknessomi/omi-Blog/models/catalog"
-	"github.com/darknessomi/goutils/filetool"
-	"github.com/darknessomi/goutils/strtool"
+	"github.com/ulricqin/goutils/filetool"
+	"github.com/ulricqin/goutils/strtool"
 	"strings"
 	"time"
 )
