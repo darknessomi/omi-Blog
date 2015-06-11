@@ -5,8 +5,7 @@ omi's blog use beego framework
 
 thanks ulricqin
 
-## install 
-
+##  environment 
 
 ```
 sudo yum install go  
@@ -15,7 +14,6 @@ sudo yum install mariadb-server mariadb
 sudo systemctl start mariadb.service  
 mkdir ~/go
 export GOPATH=~/go
-go get github.com/beego/bee
 ``` 
 environment variable
   
@@ -28,7 +26,7 @@ export GOPATH=~/go
 export PATH=$PATH:$GOBIN:$GOPATH  
 
 
-## make
+## install
 
 ```
 mkdir -p $GOPATH/src/github.com/darknessomi
@@ -53,21 +51,4 @@ source ~/go/src/github.com/darknessomi/omi-blog/db.sql;
 url: /me
 username: omi
 password: md5
-```
-
-## File directory description
-
-```
-├── README.md
-├── conf
-│   └── app.conf					# configuration file
-├── controllers
-├── db.sql
-├── g
-├── main.go
-├── models
-├── omi-Blog
-├── routers
-├── static
-└── views							# Page file 
 ```
