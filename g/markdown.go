@@ -1,7 +1,7 @@
 package g
 
 import (
-	"github.com/slene/blackfriday"
+	"github.com/russross/blackfriday"
 )
 
 func RenderMarkdown(mdStr string) string {
